@@ -1,3 +1,8 @@
+using System;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+using Middleware.Example;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -5,10 +10,10 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-app.Run(async context =>
+/*app.Run(async context =>
 {
     await context.Response.WriteAsync("Hello Dear Readers!");
-});
+});*/
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -17,6 +22,8 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
+app.UseMyCustomMiddleware();
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
