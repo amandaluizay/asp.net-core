@@ -352,3 +352,4 @@ C:\Users\artes\source\repos\Views\Views\obj\Debug\netcoreapp3.1\Views.pdb
 C:\Users\artes\source\repos\Views\Views\obj\Debug\netcoreapp3.1\Views.genruntimeconfig.cache
 C:\Users\artes\source\repos\Views\Views\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Aviso.cshtml.g.cs
 C:\Users\artes\source\repos\Views\Views\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Carrinho\Default.cshtml.g.cs
+C:\Users\artes\source\repos\Views\Views\obj\Debug\netcoreapp3.1\Razor\Views\Filmes\Adicionar.cshtml.g.cs
